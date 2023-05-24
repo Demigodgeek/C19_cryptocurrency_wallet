@@ -41,11 +41,14 @@ To use the PyChain ledger, follow these steps:
 3. On the resulting webpage, select a candidate that you would like to hire from the appropriate drop-down menu. Then, enter the number of hours that you would like to hire them for. (Remember, you do not have a lot of ether in your account, so you cannot hire them for long!)
 4. Click the Send Transaction button to sign and send the transaction with your Ethereum account information. If the transaction is successfully communicated to Ganache, validated, and added to a block, a resulting transaction hash code will be written to the Streamlit
 application sidebar.
+Here is the image that shows you executing a payment transaction from your app displaying the returned transaction hash. 
+![My Image](Images/trasaction_hash.jpeg)
 4. After the transaction, the account tab with address balance and tx account looks as this,  
-![My Image](Images/account.png)
+![My Image](Images/account_balance.png)
 5. The transaction tab has a transaction list, click the transaction we just made, the tag shows the detail of this transaction,
 ![My Image](Images/transaction.png)
-
+The Block tab has a block list, click the block we just made, the tag shows the history of this transaction
+![My Image](Images/history.png)
 ## Contributors
 
 - Demi Gao
